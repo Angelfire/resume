@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Sergio Andres} % Your first name
+\familyname{Bedoya Garces} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Carrera 74 \# 93-104 }{Medellin, Colombia}
+\mobile{(+57) 301 641 9390}
+\phone{(+57 4) 508 5816}
+\email{andres.paranoid@gmail.com}
+\homepage{geektheplanet.net}{geektheplanet.net} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{Skype:abedoyag}
+\quote{"I would love to change the world, but they would not give me the source code." Anonymous}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Profile}
+\textbf{Andres is a Systems and Informatic Engineer with more than 8 years of experience developing web pages and applications in different programming languages such as Javascript, Python and PHP. He has experience with free platforms and operating systems Linux / OS X management with web trends knowledge, basic server management and computer information security. Technology enthusiast and blogger from an early age.
+\newline
+He is an internet enthusiast. He uses communication, music, networks and social interactions through technology as a mean of daily life improvement. He strongly believes in the free culture.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2006--2012}{B.Sc. in Systems and Informatics Engineering}{Universidad Nacional de Colombia}{Medellin}{\textit{}}{}  % Arguments not required can be left empty
+
+\section{Bachelor Thesis}
+
+\cvitem{Title}{\emph{Analisis de metodos y herramientas para la optimizacion de
+consultas en Oracle 10g}}
+\cvitem{Supervisors}{Professor Francisco Moreno}
+\cvitem{Description}{This thesis explored the different methods and techniques used for query optimization in Oracle 10g RDBMS}
+
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2017--Present}{Software Designer - Web UI Developer}{\textsc{Globant}}{Medellin}{}{Detailed achievements:
+\begin{itemize}
+\item Developed platform for search clients and products using Angular 2 and Bootstrap
+\item Developed platform for channel Programming using React, Redux
+\end{itemize}}
+
+\cventry{2016--2017}{Web Engineer}{\textsc{Huge}}{Medellin}{}{Detailed achievements:
+\begin{itemize}
+\item Maintained legacy platform using AEM, React, Redux, SASS
+\item Develop platform for managing users and runs using React, Redux, Google Maps API
+\item Training: Intro to Vuejs, intro to react-native
+\end{itemize}}
+
+\cventry{2015--2016}{Senior Frontend Developer}{\textsc{Velocity Partners}}{Medellin}{}{Detailed achievements: 
+\begin{itemize}
+\item Created platform for managing clients, customers, and products.
+\item Solved several issues related to cross-browser and mobile devices.
+\item Designed front-end layouts using materials design for Angular.
+\item Supported the team's environment using Gulp.
+\end{itemize}}
+
+\cventry{2013--2015}{Web UI Developer}{\textsc{Globant}}{Medellin}{}{Detailed achievements: 
+\begin{itemize}
+\item Created several plugins to manage/show the content of the application using the Infuse.js plugin.
+\item Solved several issues related to cross-browser and mobile devices.
+\item Collaborated in the development of numerous international portals all based of the same platform using Adobe AEM (CQ5).
+\item Created an application for couch surfing using JS framework Backbone.js.
+\item Maintained legacy code developed in jQuery.
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2012--2013}{Web Developer/Technical Lead}{\textsc{Teleantioquia}}{Medellin}{}{Detailed achievements:
+\begin{itemize}
+\item Manager of the Project http://www.soydigital.co/ a project created by the Ministry of Information Technology and Communications of Colombia, and led by Teleantioquia with the participation of eight local TV channels in Colombia that aired The incredible uses of technology applied to information and communications.
+\item Technical Lead of the New Media team of Teleantioquia
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2009--2012}{Web Developer}{\textsc{VCB S.A.S.}}{Medellin}{}{Detailed achievements:
+\begin{itemize}
+\item Developed several governmental portals using Platforms like Joomla!, WordPress, Blogspot, and custom developments from scratch using: PHP and JS.
+\item Migrated multimedia from SWF to jQuery.
+\item Administrated Joomla portals.
+\item Customized Joomla components.
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%   SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+
+\subsection{Computer Skills}
+
+\cvcomputer{\textbf{Programming Languages}}{Python (basic), PHP (basic), JavaScript}{\textbf{Services}}{Apache}
+\cvcomputer{\textbf{Databases}}{MySQL}{\textbf{Version Control}}{Subversion, Git, TFS}
+\cvcomputer{\textbf{Operative Systems}}{GNU Linux (Fedora, Ubuntu), MAC OS}{\textbf{Graphic Design}}{Fireworks}
+
+\subsection{Frontend Skills}
+\cvcomputer{\textbf{JavaScript application framework}}{Backbone (Marionette), Ember, AngularJS, React, React-native, Vue.js}{\textbf{Web application server}}{ExpressJS}
+\cvcomputer{\textbf{Web components}}{Polymer}{\textbf{DOM manipulation}}{jQuery}
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2013--Present}{Speaker at MedellinJS}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Native Language}{}
+\cvitemwithcomment{English}{Intermediate}{{\textbf{Reading:} Fluent, \textbf{Writing:} Intermediate, \textbf{Speaking:} Intermediate}}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Personal Projects}
+ 
+\cventry{2007--Present}{Product Owner}{Geek the Planet}{}{}{One of the most visited Web sites in Colombia about information technology and communications, is positioned as a guide for young learners in technology, software development and free software. http://geektheplanet.net}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Programming}{Web Trends}
+\cvlistdoubleitem{Open Source}{GNU/Linux}
+\cvlistdoubleitem{Information Security}{Volleyball}
+\cvlistdoubleitem{Cook}{Travel}
+\cvlistdoubleitem{Puzzles}{Games}
+
+
+\end{document}
